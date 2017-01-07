@@ -5,8 +5,6 @@
 This project is a data science design capstone for data science and engineering students at UCSD graduating in June 2017.
 
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
 ## Code Example
 
 *to fill in later, will include folder breakdown
