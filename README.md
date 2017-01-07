@@ -7,7 +7,7 @@ This project is a data science design capstone for data science and engineering 
 
 ## Code Example
 
-*to fill in later, will include folder breakdown
+*to fill in later
 
 ## Motivation
 
