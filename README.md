@@ -9,7 +9,7 @@ At the top of the file there should be a short introduction and/ or overview tha
 
 ## Code Example
 
-*to fill in later
+*to fill in later, will include folder breakdown
 
 ## Motivation
 
@@ -37,8 +37,8 @@ Ryan Riopelle <rriopell@eng.ucsd.edu>
 
 ### Professor Oversite
 
-Dr. Ilkay Altintas <altintas@sdsc.edu>
-3 more
+Dr. Ilkay Altintas <altintas@sdsc.edu> +
+3 more advisors that will be posted
 
 Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
