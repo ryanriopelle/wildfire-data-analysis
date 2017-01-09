@@ -37,7 +37,7 @@ FirstName | LastName | Email
 --- | --- | ---
 Megan |  McCarty |  <mmccart@eng.ucsd.edu>
 Pooja |  Palkar | <ppalkar@eng.ucsd.edu>
-Syed Sadat |  Nazrul |  <ssnazruk@eng.ucsd.edu>
+Syed Sadat |  Nazrul |  <ssnazrul@eng.ucsd.edu>
 Parinaz | Azadvari |  <pazadvar@eng.ucsd.edu>
 Ryan | Riopelle | <rriopell@eng.ucsd.edu>
 
