@@ -2,8 +2,12 @@
 
 ## Synopsis
 
-This project is a data science design capstone for data science and engineering students at UCSD graduating in June 2017.
+UCSD Data Science Masters Capstone Project.
+The goal of this project is to produce surface fuel maps of San Diego County and other regions in Southern California using data from satellite imagery. Accurate and up-to-date fuel maps are critical for modeling wildfire rate of spread and potential burn areas. The best available fuel maps are from USGS LANDFIRE, but these are only released every two years (the latest is for 2014); we would like to create fuel maps at a higher temporal frequency.
 
+## Data:
+
+Satellite imagery from Planet Labs and USGS Landsat, existing fuel maps from LANDFIRE..
 
 ## Code Example
 
@@ -35,11 +39,19 @@ Ryan Riopelle <rriopell@eng.ucsd.edu>
 
 ### Professor Oversite
 
-Dr. Ilkay Altintas <altintas@sdsc.edu> +
-3 more advisors that will be posted
+Dr. Ilkay Altintas <altintas@sdsc.edu> 
+
+### Technical Advisors:
+ 
+Daniel Crawl <crawl@sdsc.edu>
+Mai Nguyen <mhnguyen@sdsc.edu>
+Jessica Block <j.block@eng.ucsd.edu>
 
 Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
 ## License
 
-May take on licenses from Apaches Spark, Hadoop, and other related modules. 
+May assume licenses for open source application as project progresses: including Apaches Spark, MLLib, Hadoop, and other related modules.
+
+Example: https://github.com/apache/spark/blob/master/LICENSE 
+
