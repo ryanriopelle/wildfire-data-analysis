@@ -10,12 +10,16 @@ class PrepTools:
         write_path = target_path + "/"
         width = dset.RasterXSize
         height = dset.RasterYSize
+        I=0
+        J=0
         for i in range(0, width, tilesize[0]):
             for j in range(0, height, tilesize[1]):
                 w = min(i+tilesize[0], width) - i
-                h = min(j+tilesize[0], height) - j
-                gdaltranString = "gdal_translate -of GTIFF -srcwin "+str(i)+", "+str(j)+", "+str(w)+", "+str(h)+" " + img_path + " " + write_path + "_"+str(i)+"_"+str(j)+".tif"
+                h = min(j+tilesize[1], height) - j
+                gdaltranString = "gdal_translate -of GTIFF -srcwin "+str(i)+", "+str(j)+", "+str(w)+", "+str(h)+" " + img_path + " " + write_path + "_"+str(I)+"_"+str(J)+".tif"
                 os.system(gdaltranString)
+                J=+1
+            I+=1
                 
     def Clip(self,SE,FileName,OutFile):
         #Input:
