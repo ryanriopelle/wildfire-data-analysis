@@ -1,10 +1,9 @@
 import matplotlib.pyplot as plt
+from osgeo import gdal
+import os, sys
 
 class PrepTools:
     
-    def _init_(self):
-        from osgeo import gdal
-        import os, sys
         
     def split_img(self,img_path, target_path,tilesize):
         dset = gdal.Open(img_path)
