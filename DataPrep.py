@@ -11,8 +11,8 @@ class PrepTools:
         width = dset.RasterXSize
         height = dset.RasterYSize
         I=0
-        J=0
         for i in range(0, width, tilesize[0]):
+        	J=0
             for j in range(0, height, tilesize[1]):
                 w = min(i+tilesize[0], width) - i
                 h = min(j+tilesize[1], height) - j
